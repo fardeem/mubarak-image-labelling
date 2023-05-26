@@ -10,3 +10,8 @@ pinned: false
 ---
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+
+
+## Environment variables
+
+`GOOGLE_SERVICE_KEY` from cloud console to use the vision api
