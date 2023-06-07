@@ -14,7 +14,7 @@ demo = gr.Interface(
     fn=process_image,
     inputs=gr.Image(type="filepath", label="Upload an image"),
     outputs="text",
-    title="OCR using Google Vision API",
+    title="Extracting Articles from Newspaper Images",
 )
 
 demo.launch()
