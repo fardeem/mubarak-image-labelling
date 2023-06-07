@@ -15,3 +15,4 @@ Check out the configuration reference at https://huggingface.co/docs/hub/spaces-
 ## Environment variables
 
 `GOOGLE_SERVICE_KEY` from cloud console to use the vision api
+`OPENAI_API_KEY` for obvious reasons
