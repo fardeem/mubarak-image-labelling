@@ -1,11 +1,13 @@
 import gradio as gr
 
 from google_vision import get_ocr_result
+from text_processing import get_articles
 
 
 def process_image(image):
     ocr_result = get_ocr_result(image)
-    return ocr_result
+    results = get_articles(ocr_result)
+    return f"{results}\n\n\nOCR Result:\n{ocr_result}"
 
 
 demo = gr.Interface(
